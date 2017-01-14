@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Тест</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+      <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+      <script src="testJS.js"></script>
+   </head>
+   <body>
+      <div class="container">
+      <header>
+         <div class="row" >
+            <div class="col-xs-2">
+               <img src="webLogo.png" class="img-thumbnail img-responsive" alt="Логотип" /><br />
+            </div>
+            <div class="col-xs-10">
+               <h1>Основы Web-технологий</h1>
+            </div>
+         </div>
+         <div class="row">
+            <nav class="navbar navbar-default">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                     <a class="navbar-brand" href="index.html">Главная</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav" >
+                     <li><a href="technologies.html">Web-технологии</a></li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
+                           <ul class="dropdown-menu" role="menu">
+                              <li><a href="html5.html">HTML5</a></li>
+                              <li><a href="css3.html">CSS3</a></li>
+                              <li><a href="javaScript.html">JavaScript</a></li>
+                           </ul>
+                     </li>
+                     <li><a href="calculator.html">Калькулятор</a></li>
+                     <li><a href="test.html">Тест</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav> 
+         </div>
+      </header>
+         <div class="test">
+            <form name="test">
+            
+               <p>
+                 
+                  Какой тег предназначен для создания ссылок:<br />
+                     <input type="radio" name="1v" class="r1" value="10" />&lt;a&gt;<br />
+                     <input type="radio" name="1v" class="r1" value="0" />&lt;a &#047;&gt;<br />
+                     <input type="radio" name="1v" class="r1" value="0" />&lt;ref&gt;<br />
+                     <input type="radio" name="1v" class="r1" value="0" />&lt;ref &#047;&gt;<br />
+                  
+               </p>
+               
+               <p>
+                  
+                  Какой тег предназначен для создания нумерованного списка:<br />
+                     <input type="radio" name="2v" class="r2" value="0" />&lt;li&gt;<br />
+                     <input type="radio" name="2v" class="r2" value="0" />&lt;dl&gt;<br />
+                     <input type="radio" name="2v" class="r2" value="10" />&lt;ol&gt;<br />
+                     <input type="radio" name="2v" class="r2" value="0" />&lt;ul&gt;<br />
+                  
+               </p>
+               
+               <p>
+                  
+                  Какой тег предназначен для передачи служебной информации браузеру:<br />
+                     <input type="radio" name="3v" class="r3" value="0" />&lt;info&gt;<br />
+                     <input type="radio" name="3v" class="r3" value="0" />&lt;info &#047;&gt;<br />
+                     <input type="radio" name="3v" class="r3" value="0" />&lt;meta&gt;<br />
+                     <input type="radio" name="3v" class="r3" value="10" />&lt;meta &#047;&gt;<br />
+                 
+               </p>
+               
+               <p>
+                 
+                  Какие теги используются при создании таблицы:<br />
+                     <input type="checkbox" name="4v" class="r4" value="0" />&lt;bodyt&gt;<br />
+                     <input type="checkbox" name="4v" class="r4" value="5" />&lt;td&gt;<br />
+                     <input type="checkbox" name="4v" class="r4" value="5" />&lt;caption&gt;<br />
+                     <input type="checkbox" name="4v" class="r4" value="0" />&lt;column&gt;<br />
+                  
+               </p>
+               
+               <p>
+                 
+                  Какие атрибуты используются при создании форм:<br />
+                     <input type="checkbox" name="5v" class="r5" value="5" />autocomplete<br />
+                     <input type="checkbox" name="5v" class="r5" value="5" />action<br />
+                     <input type="checkbox" name="5v" class="r5" value="0" />charset<br />
+                     <input type="checkbox" name="5v" class="r5" value="0" />validate<br />
+                  
+               </p>
+               
+               <p>
+               <input type="button" id="resbut" value="Результат" />
+               </p>
+             
+            </form>
+              
+         <footer>
+         <div class="row">   
+            <address class="text-center"><a href="mailto:natasonata94@gmail.com">Пишите: natasonata94@gmail.com</a></address>
+            <p class="text-center">&copy; Толстикова Н.Н., 2016 год</p>
+         </div>
+         </footer>
+      </div>
+      <script src="bootstrap/js/bootstrap.js"></script>
+   </body>
+</html>

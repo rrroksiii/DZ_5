@@ -1,0 +1,128 @@
+* { 
+  vertical-align: baseline;   
+  padding: 0;
+  margin: 0; 
+  } 
+body{
+   background-color: gray;
+   font-family: Times New Roman;
+   margin-top:0px;
+   margin-bottom:0px;
+   }
+.header, .footer, .article, .calculator, .test, .all{
+   background-color: white;
+   width: 800px;
+   margin: 0 auto;
+   border-radius: 10px;
+   padding: 4px;
+   }
+.footer{
+   text-align: center;
+   }
+.img{
+   float: left;
+   }
+.title{
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 200px;
+   }
+.main_menu {
+    list-style: none; 
+    clear: both;
+    margin-left: 28%;
+   }
+ul.main_menu>li{
+   display: inline;
+   width: 50px;
+   }
+.top{
+   position: relative;
+   }
+.submenu {
+    position: absolute; 
+    display: none; 
+    left: 0%;
+    top: 90%;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 8px; 
+    background: #ffffff;
+    padding: 5px; 
+   }
+li a:hover {
+    color: Crimson;
+   }
+.top:hover .submenu { 
+    display: block; 
+   }
+a{
+   color: #0000FF;     
+   }
+a:visited {
+    color: #0000FF;
+   }
+   
+.table{
+   margin-left:36%;
+   width: 300px;
+   }
+tr{
+   -webkit-border-horizontal-spacing: 0px;
+   -webkit-border-vertical-spacing: 0px;
+   height: 28px;  
+}  
+input[type="text"] {
+   color: black; 
+   font-size: 18px; 
+   font-family: Arial; 
+   }
+button{
+   outline: none;
+   height: 24px;
+   margin: 0px;
+   border-bottom-width:2px;
+   width: 100%;
+   }
+.equal1{
+   position: relative;
+   }
+.equal{
+   position: absolute;
+   top: 0px;
+   bottom: 1px; 
+   right: 0px;
+   left: 0px;
+   line-height: 0px;
+   height: 54px;
+   }
+.addtl{
+   width: 25%;
+   float: right;
+   background-color: Silver;
+   border-radius: 5px;
+   padding: 15px 5px;
+   margin-left: 5px;
+}
+.addtl1{
+   font-size: small;
+   padding-top: 15px;
+   text-align:  justify;
+}
+.structure{
+   padding-left: 5%;
+}
+dl>dd{
+   padding-left: 5%;
+}
+.title1{
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+p{
+   text-align:  justify;
+}
+
+ 
+
+
